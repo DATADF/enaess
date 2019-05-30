@@ -1,0 +1,17 @@
+h1 {
+    color: $cinza;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    @extend h1;
+    font-size: .6em;
+    font-weight: 500;
+}
+
+h3 {
+    @extend h1;
+    font-size: 1em;
+    font-weight: 300;
+}

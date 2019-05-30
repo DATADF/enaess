@@ -1,0 +1,20 @@
+@charset 'UTF-8';
+
+// 1. Global
+@import
+  'global/global',
+  'global/variables';
+
+// 2. Bairro
+@import
+'bairro/botao',
+'bairro/titulos',
+'bairro/logo';
+
+// 3. Cidade
+@import
+'cidade/content-banner';
+
+// 3. Estado
+@import
+'estado/header';
